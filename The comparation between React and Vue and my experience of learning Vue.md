@@ -121,7 +121,7 @@ var vm = new Vue({
 >* Combined with the response system, Vue can intelligently calculate the minimum cost of rerendering components and apply it to DOM operations when the application state changes.
 
 #### example: Use the v-html instruction to output the HTML code:
-```
+``` html
 <div id="app">
     <div v-html="message"></div>
 </div>
@@ -141,7 +141,7 @@ new Vue({
 >* V-for can bind data to an array to render a list:
 
 #### example:
-```
+``` html
 <div id="app">
   <ol>
     <li v-for="site in sites">
