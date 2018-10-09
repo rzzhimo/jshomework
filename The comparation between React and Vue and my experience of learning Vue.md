@@ -61,7 +61,7 @@
 ## 3.My experiences of learning Vue
 ---
 ### 1).the example:
-```javascript
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -98,7 +98,7 @@
 ```
 >* Create Vue instance:
 
-```
+``` html
 var vm = new Vue({
     // options
 
