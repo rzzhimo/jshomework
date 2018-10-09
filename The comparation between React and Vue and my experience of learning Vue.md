@@ -166,7 +166,7 @@ new Vue({
 ### 4).vue.js's Calculate attribute
 >* Computed attribute keyword: computed.
 >* Calculating attributes is useful when dealing with some complex logic.
-```
+``` html
 <div id="app">
   {{ message.split('').reverse().join('') }}
 </div>
