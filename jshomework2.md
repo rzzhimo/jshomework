@@ -25,7 +25,8 @@ It can be roughly divided into these three types:
 
 ### 2.1 native app 
 
-![native](http://image.woshipm.com/wp-files/2016/04/appkeutuie.jpg)
+ <div align=center>
+![native](http://image.woshipm.com/wp-files/2016/04/appkeutuie.jpg)</div>
 
 The Chinese name is "native app".Let's take a look at the definition of baidu encyclopedia: third-party applications based on the local **operating systems** of smart phones, such as iOS, Android and WP, and written and run with native programs. Generally developed languages are Java, C++, etc.The specific expression on the use is that the graph on the desktop is basically a native app.
 ![native](http://image.woshipm.com/wp-files/2016/04/559443-6bb5e01ed2bfb2c0.png)
@@ -83,7 +84,7 @@ Such apps combine the advantages of the above two apps:
 Also, why do some native apps make web apps?
 There's an example. Here are the ICONS of several web apps that come with my mobile browser.
 
-![ICONS of several web apps](http://img.mp.itc.cn/upload/20170220/18f3ee4356da42b59983b80727cda806_th.jpg)
+ <div align=center>![ICONS of several web apps](http://img.mp.itc.cn/upload/20170220/18f3ee4356da42b59983b80727cda806_th.jpg)</div>
 
 There are several reasons:
 
