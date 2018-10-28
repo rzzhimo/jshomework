@@ -5,6 +5,7 @@ Firstly,what is an app ?
 
 
 The structure of this paper is mainly divided into the following parts:
+
 > 1. The classification of the app
 > 2. The definition of each type of app, and what are the 
  specific types of apps
@@ -12,6 +13,7 @@ The structure of this paper is mainly divided into the following parts:
 > 4. What kind of app should be used in the specific development process
 
 ## 1.The classification of the app
+
 It can be roughly divided into these three types:
 > Native app (native app)
 > A web app
@@ -20,30 +22,44 @@ It can be roughly divided into these three types:
 ![picture-0f-three-kind-apps](https://upload-images.jianshu.io/upload_images/1668945-eebff27c68f3e4db.png)
 
 ## 2.Definition of three types of apps
+
 ### 2.1 native app 
-![](http://image.woshipm.com/wp-files/2016/04/appkeutuie.jpg)
+
+![native](http://image.woshipm.com/wp-files/2016/04/appkeutuie.jpg)
+
 The Chinese name is "native app".Let's take a look at the definition of baidu encyclopedia: third-party applications based on the local operating systems of smart phones, such as iOS, Android and WP, and written and run with native programs. Generally developed languages are Java, C++, etc.The specific expression on the use is that the graph on the desktop is basically a native app.
-![](http://image.woshipm.com/wp-files/2016/04/559443-6bb5e01ed2bfb2c0.png)
+![native](http://image.woshipm.com/wp-files/2016/04/559443-6bb5e01ed2bfb2c0.png)
+
 ### 2.2 web app
+
 Still take a look at the definition of baidu encyclopedia: web-based systems and applications running on the web and browser, currently mostly developed using the h5 standard.The specific performance on use is that when the mobile browser is clicked to enter, there will be some small ICONS of the app. After clicking, the page loaded in the browser is the same as the page opened after you directly download an app. These little ICONS represent the web app.
+
 ### 2.3 hybrid app
+
 The Chinese name is "mixed app".As the name implies, it is a mixture of native app and web app.A browser is built in the native app, and the appropriate functional pages are rendered in the form of web pages.For example, some marketing pages of jd.com, some news pages of today's headlines, and content pages of tencent news of WeChat.
 
 ## 3.Advantages and disadvantages of various apps
 
 ### 3.1 native app
+
 Advantages:
+
 >* Provide the best user experience, the best user interface, smooth interaction
 >* Local resources can be accessed
 >* Mobile hardware devices, such as cameras and microphones, can be called
 
 Disadvantages:
+
 >* High development costs.Each mobile operating system needs independent development projects to provide different  experiences for different platforms.
 >* Slow release of new releases.Downloads are user controlled, and many users don't want to download updates (for example, there are still many 1.0 users and you may have to maintain the 1.0 API).
 >* App store release review cycle is long.Android takes between one and three days, while iOS takes longer
 
 ### 3.2 web app
+
+![web_app](https://img.zcool.cn/community/01d309558268fd000000b18f720072.jpg@1280w_1l_2o_100sh.jpg)
+
 Advantages:
+
 >* No need to install the package, saving mobile phone space
 >* Overall light weight, low development cost
 >* The user is not required to update manually, but the app developer will update directly in the background, and the new version will be pushed to the user, which is more convenient for business development
@@ -85,9 +101,16 @@ Different page situations choose different development approaches
 >* 4.5 if the common pages of app users are frequently-changed (such as various marketing activities on the home page of taobao), it is easier to use H5 for maintenance
 >* 4.6 if the budget is limited (H5 develops a set that can be used across android, iOS, blackberry and other platforms), regardless of user experience or load speed, it must be H5
 
+Will the H5 replace apps in future?
+
+>* It is found that there is a lot of coupling between them, none of them can be fully satisfied and supported, and the best performance is complementary and cross-use.
+>* The future market doesn't know, but we're all cross-using at the moment, and the overall feel improves the user experience and achieves our purpose.
+>* App and H5 means that you have a relationship with me and you have a relationship with each other.And there's no denying that native apps are running much more smoothly than H5 web pages.No one is going to end up with anyone in the future.
+
 
 ### Refer to the reading:
 
 1. [Comparison of web app, native app and hybrid app](https://www.jianshu.com/p/24bf070a4dcb)
 2. [科普：Native App、Web App与Hybrid App](http://www.woshipm.com/pd/321844.html)
 3. [大家公司的app是用原生做的还是h5的呢？](https://www.pmcaff.com/discuss/index/635935159261248)
+4. [H5未来真的会取代APP吗？](https://www.pmcaff.com/discuss/index/1000000000146469)
