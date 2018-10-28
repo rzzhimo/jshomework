@@ -56,7 +56,9 @@ Disadvantages:
 
 
 ### 3.3 Hybrid app
+
 Such apps combine the advantages of the above two apps:
+
 >* On the premise of realizing more functions, the app installation package should not be too large
 >* Open a web page within the application without the hassle of jumping to the browser
 >* When the main functional areas are relatively stable, the added functional areas adopt web form, which makes the iteration more convenient
@@ -64,8 +66,11 @@ Such apps combine the advantages of the above two apps:
 
 Also, why do some native apps make web apps?
 There's an example. Here are the ICONS of several web apps that come with my mobile browser
+
 ![ICONS of several web apps](http://img.mp.itc.cn/upload/20170220/18f3ee4356da42b59983b80727cda806_th.jpg)
+
 There are several reasons:
+
 >* Data can be caught by search engine crawlers and indexed.If the product has only one app, its entrance is independent, but the data is also closed.If the user looks up from a search engine, there is no information available.So it's a web app that can be found by search engines
 >* User fragmentation time use, such as some of the less sticky applications, such as mobile search, url navigation, and so on
 
@@ -82,6 +87,7 @@ Different page situations choose different development approaches
 
 
 ### Refer to the reading:
+
 1. [Comparison of web app, native app and hybrid app](https://www.jianshu.com/p/24bf070a4dcb)
 2. [科普：Native App、Web App与Hybrid App](http://www.woshipm.com/pd/321844.html)
 3. [大家公司的app是用原生做的还是h5的呢？](https://www.pmcaff.com/discuss/index/635935159261248)
