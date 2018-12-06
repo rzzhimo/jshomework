@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <!-- <img src="./assets/pdd21.jpg" width="200" height="200"> -->
     <hr>
     <button class="btn btn-primary">确定</button>
     <button class="btn btn-success">使用</button>
