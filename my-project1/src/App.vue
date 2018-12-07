@@ -3,18 +3,26 @@
     <img src="./assets/logo.png">
     <!-- <img src="./assets/pdd21.jpg" width="200" height="200"> -->
     <hr>
-    <button class="btn btn-primary">确定</button>
-    <button class="btn btn-success">使用</button>
-    <button class="btn btn-danger">注意</button>
+    <p>bootstrap按钮大全</p>
+    <button class="btn btn-default">默认按钮</button>
+    <button class="btn btn-primary">原始按钮</button>
+    <button class="btn btn-success">成功</button>
+    <button class="btn btn-danger">危险</button>
+    <button class="btn btn-info">信息</button>
+    <button class="btn btn-warning">警告</button>
+    <button class="btn btn-link">这是一个链接按钮</button> 
     <hr>
     <div class="myclass1">你好！</div>
+    <div>可以跳转
     <router-link to='/home'>发起活动</router-link>
     <router-link to='/about'>About</router-link>
     <router-link to='/calculator'>calculator</router-link>
     <router-link to='/'>HelloWorld</router-link>
     <router-link to='/wordladder'>wordladder</router-link>
     <!-- <router-view></router-view> -->
+    </div>
      <router-view/>
+    
   </div>
 </template>
 
@@ -33,5 +41,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+p{
+color: rgb(255, 115, 0);
 }
 </style>

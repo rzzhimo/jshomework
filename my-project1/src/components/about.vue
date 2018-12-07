@@ -3,11 +3,14 @@
     <div>
         <h1>活动组件</h1>
         <p>{{aboutMsg}}</p>
-        <p>{{detail}}</p>
+       
         <!-- <p>{{name}}</p> -->
         <button class="btn btn-info" @click="create">{{he}}</button>
         <button class="btn btn-info" @click="goforward">前进</button>
         <button class="btn btn-primary" @click="goBack">返回</button>
+        <router-link to='/about/detail' class="btn btn-primary">展示细节</router-link>
+        <!-- 这里嵌套路由的路径开始一定要在父组件下 -->
+        <router-view/>
     </div>
 
 </template>
@@ -19,7 +22,7 @@ export default{
     return {
       aboutMsg: '我是活动组件',
       he:"点我",
-      detail:[12334]
+      
     }
      
     
@@ -38,3 +41,10 @@ export default{
 }
 }
 </script>
+<style>
+p{
+color: rgb(255, 115, 0);
+
+}
+
+</style>

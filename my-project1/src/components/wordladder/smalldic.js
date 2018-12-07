@@ -36,8 +36,13 @@ var dic=[
     "coda",
     "cota",
     "cata",
-    "data"
-];
+    "data",
+    "cat",
+    "cut",
+    "but",
+    "bug",
+    "bag"
+    ];
 export{
     dic
 }

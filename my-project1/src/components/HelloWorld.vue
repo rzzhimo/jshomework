@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <p>这里主要用axios随机抓取一些信息并显示出来</p>
   <pre>{{content}}</pre>
   
   </div>
@@ -19,8 +20,6 @@ export default {
       this.content = body.data
     })
     }
-    
-  
 }
 </script>
 

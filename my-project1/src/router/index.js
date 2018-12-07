@@ -5,6 +5,8 @@ import home from '@/components/home'
 import about from '@/components/about'
 import calculator from '@/components/calculator'
 import wordladder from '@/components/wordladder'
+import detail from '@/components/detail'
+
 Vue.use(Router)
 
 export default new Router({
@@ -17,8 +19,15 @@ export default new Router({
     {
       path: '/about',
       name:about,
-      
-      component:about
+      component:about,
+      children:[
+        {
+          path: 'detail',
+          name:detail,
+          component:detail
+
+        }
+      ]
      },
      {
       path: '/home',

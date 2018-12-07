@@ -1,24 +1,12 @@
 
 import{
-    queue_back,
-    queue_empty,
-    queue_front,
-    queue_pop,
-    queue_push,
     Queue
 }from '../wordladder/Queue.js'
 
 import{
-    stack_clear,
-    stack_copy,
-    stack_empty,
-    stack_length,
-    stack_pop,
-    stack_push,
-    stack_top,
     Stack
 }from '../wordladder/Stack.js'
-//import{dic}from '../wordladder/dic.js' 字典太大跑不起来
+//import{dic}from '../wordladder/dic.js' //字典太大跑不起来
 import{dic}from '../wordladder/smalldic.js'
 var alphabet=['a','b','c','d','e','f','g','h','i','j','k','l',
 'm','n','o','p','q','r','s','t','u','v','w','x','y','z'];
