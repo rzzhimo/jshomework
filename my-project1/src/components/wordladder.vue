@@ -3,7 +3,7 @@
     <div>
         <h1>my wordladder</h1>
         <p>{{aboutMsg}}</p>
-        <!-- <p>{{detail}}</p> -->
+        
         <input id="source_word" type="text">
         <input id="target_word" type="text">
         <button class="btn btn-info" id="submit" @click="show()">submit</button>
@@ -19,7 +19,7 @@ export default{
   data () {
     
     return {
-      aboutMsg: '我是wordladder组件',
+      aboutMsg: '我是wordladder组件,dic好像太大了不能完全加载，这里只用了迷你字典',
       
       
     }

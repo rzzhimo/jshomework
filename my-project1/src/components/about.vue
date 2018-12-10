@@ -1,20 +1,22 @@
 <template>
-
     <div>
         <h1>活动组件</h1>
         <p>{{aboutMsg}}</p>
-       
-        <!-- <p>{{name}}</p> -->
+        <div class="amap-wrapper">
+        <el-amap class="amap-box" :vid="'amap-vue'"></el-amap>
+        </div>
+        
         <button class="btn btn-info" @click="create">{{he}}</button>
-        <button class="btn btn-info" @click="goforward">前进</button>
         <button class="btn btn-primary" @click="goBack">返回</button>
         <router-link to='/about/detail' class="btn btn-primary">展示细节</router-link>
         <!-- 这里嵌套路由的路径开始一定要在父组件下 -->
         <router-view/>
+      
     </div>
 
 </template>
 <script>
+
 export default{
   name: 'about',
   data () {
@@ -27,7 +29,6 @@ export default{
      
     
   },
-
   methods:{
       create(){
         this.he="你点了我"
@@ -35,16 +36,14 @@ export default{
       goBack() {
           window.history.go(-1)//返回上一层
         },
-      goforward() {
-          window.go(1)//返回下一层
-        }
+      
 }
 }
 </script>
-<style>
-p{
-color: rgb(255, 115, 0);
 
+<style scoped>
+.amap-wrapper {
+  /* width: 500px; */
+  height: 500px;
 }
-
 </style>
