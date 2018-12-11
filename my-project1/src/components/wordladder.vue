@@ -30,8 +30,7 @@ export default{
         show() {
         var source = document.getElementById("source_word").value;
         var target = document.getElementById("target_word").value;
-        //alert(dfs(source, target));
-        //alert(target);
+       
         var b=dfs(source, target);
         alert(b);
         

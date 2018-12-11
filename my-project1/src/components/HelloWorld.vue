@@ -2,9 +2,6 @@
   <div class="hello">
     <p>这里主要用axios随机抓取一些信息并显示出来</p>
   <pre>{{content}}</pre>
-  <div class="amap-wrapper">
-      <el-amap class="amap-box" :vid="'amap-vue'"></el-amap>
-  </div>
   
   </div>
 </template>
