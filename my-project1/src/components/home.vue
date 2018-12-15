@@ -1,21 +1,29 @@
 <template>
-    <div>
-        <h1></h1>
-        <p>{{msg}}</p>
-        <ul>
-        <li>活动名<input v-model="actname" type="text" text-align: left/></li> 
+    <div class="container">
+        <h1>{{msg}}</h1>
+        <div class="row">
+        <hr>
+        <div class="col-md-4 ">活动名</div><input v-model="actname" type="text" class="col-md-8"/>
+        </div>
+        <div class="row">
+        <hr>
+        <div class="col-md-4 ">活动发起人</div><input v-model="name" type="text" class="col-md-8"/>
+        </div>
+        <div class="row">
+        <hr>
+        <div class="col-md-4">活动地点</div><input v-model="actplace" type="text" class="col-md-8"/>
+        </div>
+        <div class="row">
+        <div class="col-md-4">活动描述</div><input v-model="descri" type="text" class="col-md-8"/>
+        </div>
+       
+        <div class="col-md-4">
+        <button @click="create" class="btn btn-primary">发起活动</button>
+        <router-link :to="{ path: '/HelloWorld' }"></router-link> 
 
-        <li>活动发起人<input v-model="name" type="text" text-align: left/></li>
         
-        <li>活动地点<input v-model="actplace" type="text" text-align: left/></li>
-        
-        活动描述 <input v-model="descri" type="text" text-align: left/>
-        <button @click="create" class="btn btn-primary" v-if="!ok">发起活动</button>
-        <router-link to="/about" class="btn btn-primary" v-if="ok" >可以发起活动</router-link>
-
-        </ul>
         <!-- 通过路由会跳转到活动界面 -->
-        
+        </div>
     </div>
 
 </template>
@@ -24,7 +32,7 @@
         name: 'home',
         data(){
             return{
-                ok:false,
+               
                 msg: '我是发起活动组件',
                 actname:'',
                 name:'',
@@ -35,7 +43,7 @@
         methods:{
             create() {
                 if(this.name!=''){
-                    this.ok=true  
+                    this.$router.push({ path: `/` });
                 }
                 else{
                     alert("发起人不能为空")
@@ -45,3 +53,16 @@
         }
     }
 </script>
+
+<style scoped>
+h1{
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+input{
+    
+width: 150;
+height: 30px;
+
+}
+</style>

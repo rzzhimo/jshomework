@@ -4,6 +4,7 @@
         <p>{{aboutMsg}}</p>
         <div class="amap-wrapper">
         <el-amap class="amap-box" :vid="'amap-vue'"></el-amap>
+        <!-- 高德地图 -->
         </div>
         
         <button class="btn btn-info" @click="create">{{he}}</button>

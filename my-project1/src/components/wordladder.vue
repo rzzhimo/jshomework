@@ -7,8 +7,10 @@
         <input id="source_word" type="text">
         <input id="target_word" type="text">
         <button class="btn btn-info" id="submit" @click="show()">submit</button>
+        <hr>
+        <p>{{ladder}}</p>
     </div>
-
+    
 </template>
 
 
@@ -20,19 +22,19 @@ export default{
     
     return {
       aboutMsg: '我是wordladder组件,dic好像太大了不能完全加载，这里只用了迷你字典',
-      
+      ladder:'',
       
     }
     
   },
-
   methods:{
         show() {
+        this.ladder='';
         var source = document.getElementById("source_word").value;
         var target = document.getElementById("target_word").value;
        
-        var b=dfs(source, target);
-        alert(b);
+        this.ladder=dfs(source, target);
+        //alert(dfs(source, target));
         
     }
 }
